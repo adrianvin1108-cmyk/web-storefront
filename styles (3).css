@@ -1,0 +1,33 @@
+
+body {
+    background: linear-gradient(to bottom right, #0d1b2a, #1b263b);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.signup-card {
+    max-width: 500px;
+    margin: 80px auto;
+    border-radius: 15px;
+}
+
+.alpine-title {
+    color: #0d1b2a;
+    font-weight: bold;
+}
+
+.btn-alpine {
+    background-color: #0077b6;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-alpine:hover {
+    background-color: #023e8a;
+    transform: scale(1.02);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px #0077b6;
+    border-color: #0077b6;
+}
